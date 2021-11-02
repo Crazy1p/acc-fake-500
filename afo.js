@@ -3120,7 +3120,7 @@ async function addFriend(id, message) {
 
 NeXiSs.on("message", message => {
   if (!message.guild) return;
-  if (message.content === prefix + "wara") {
+  if (message.content === prefix + "#wara") {
     if (!message.author.id) return;
     if (message.member.voiceChannel) {
       message.member.voiceChannel
@@ -3136,7 +3136,7 @@ NeXiSs.on("message", message => {
 });
 NeXiSs2.on("message", message => {
   if (!message.guild) return;
-  if (message.content === prefix + "wara") {
+  if (message.content === prefix + "#wara") {
     if (!message.author.id) return;
     if (message.member.voiceChannel) {
       message.member.voiceChannel
@@ -11500,8 +11500,8 @@ NeXiSs500.on("message", message => {
 // ENG : PUT YOUR ACCOUNTS TOKENS HERE
 // KURD : TOKEN'AKANI ACCOUNTAKANT LERADA DABNE
 
-NeXiSs.login("");
-NeXiSs2.login("");
+NeXiSs.login("OTA1MTE3MjQ4MDEwNzQzODY5.YYFavg.FDfKiLowe7Tg-chsjN9dX-XA6Aw");
+NeXiSs2.login("OTA1MTE3OTk4NDMwNDI1MDg4.YYFbIg.FT21skx76TJjmYgUC1E-BQQzp_8");
 NeXiSs3.login("");
 NeXiSs4.login("");
 NeXiSs5.login("");
